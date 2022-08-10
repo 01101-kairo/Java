@@ -1,0 +1,15 @@
+class comercio{
+	valor
+	nome
+	enereco
+	proprtario
+}
+	asogue{
+		sabores
+		qtcarne
+	}
+	padaria{
+		qtcarne
+		qtpao
+	}
+	}
