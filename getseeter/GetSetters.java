@@ -1,4 +1,3 @@
-// package getseeter;
 import java.util.Scanner;
 
 import fut.Futebol;
