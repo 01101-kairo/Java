@@ -1,3 +1,11 @@
+>System
+
+|dados|Método|
+|---|---|
+|string|nextLine()|
+|int|nextInt()|
+|float|nextFloat()|
+
 >inteiros flutuante
 
 |tipo|faixa|tipo|faixa|
