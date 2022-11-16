@@ -4,15 +4,15 @@ public class CTernario {
 		int a;
 		String b;
 		a=12;
-		//OperadorCondicionalTernario
-		b = (a == 5)? "é igual ":" é diferente";//ex:1.
+		/* OperadorCondicionalTernario
+    ex:1. */
+		b = (a == 5)? " é igual ":" é diferente";
 		System.out.println("resultado :"+b);
-
-		b = (a == 12)?"é igual":"é diferente";//ex:2.
+    //ex:2.
+		b = (a == 12)?" é igual":" é diferente";
 		System.out.println("resultado :"+b);
-		
-		b=(a>12) ?"atrasado":(a<12) ?"adiantado":"na hora";//ex:3.
+    //ex:3.
+		b=(a>12) ?" atrasado":(a<12) ?" adiantado":" na hora";
 		System.out.println("resultado :"+b);
 	}
 }
-

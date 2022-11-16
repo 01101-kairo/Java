@@ -1,6 +1,4 @@
-import livraria.Livro;
-import livraria.Autor;
-import livraria.Editora;
+import livraria.*;
 import static livraria.Livro.livro1;
 
 public class Poo2 {

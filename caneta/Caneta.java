@@ -1,11 +1,17 @@
-package Caneta;
-
 public class Caneta{
-	public static void main(){
-	 caneta  C1 = new Caneta();
-		C1.cor = "Azul";
-		C1.ponta = 0.5;
-		C1.tampar();
-		C1.status();
-	}
+  String modelo;
+  String cor;
+  double ponta;
+  int carga;
+  boolean tampada;
+  void status(){
+    System.out.println("Uma caneta " +this.cor);
+    System.out.println("esta tampada? "+this.tampada);
+  }
+  void tampar(){
+    this.tampada = true;
+  }
+  void dtampa(){
+    this.tampada = false;
+  }
 }

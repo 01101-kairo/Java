@@ -1,4 +1,4 @@
-package src;
+package fut;
 
 public class Futebol {
     private String nomeTime;

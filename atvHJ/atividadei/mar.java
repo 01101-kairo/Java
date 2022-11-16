@@ -1,4 +1,5 @@
-2import javax.swing.JOptionPane;
+import javax.swing.JOptionPane;
+
 class Professor{
 	private String nome, sexo, CPF, diciplina, graduacoes, tempodeserviso;
 	private int idade;
@@ -42,7 +43,7 @@ class Aluno{
 	}
 	public void exib(){
 		JOptionPane.showMessageDialog(null,
-				+"\n"+nome
+				"\n"+nome
 				+"\n"+sexo
 				+"\n"+CPF
 				+"\n"+curso
