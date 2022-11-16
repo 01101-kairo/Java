@@ -7,7 +7,7 @@ public class GetSetters {
     String time;
     Futebol torcida = new Futebol();
     try (Scanner texto = new Scanner(System.in)) {
-      System.out.println("pra qual time tu torce? ");
+      System.out.printf("pra qual time tu torce? ");
       time = texto.nextLine();
     }
 
