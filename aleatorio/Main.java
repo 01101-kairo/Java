@@ -1,4 +1,4 @@
-// numeros aleatorios
+// package aleatorios;
 import java.util.Random;
 
 public class Main{

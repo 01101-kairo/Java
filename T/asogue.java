@@ -8,13 +8,21 @@ public class asogue extends Comercio{
     super(modoDpreparo, endereco, valor, historia);
     this.qtcarne = qtcarne;
     this.enderecocarnes = enderecocarnes;
-  }public String getqtcarne(){
-    return qtcarne; 
-  }public void setqtcarne(String qtcarne){
+  }
+
+  public String getqtcarne(){
+    return qtcarne;
+  }
+
+  public void setqtcarne(String qtcarne){
     this.qtcarne = qtcarne;
-  }public String getenderecocarnes(){
-    return enderecocarnes; 
-  }public void setenderecocarnes (String enderecocarnes){
+  }
+
+  public String getenderecocarnes(){
+    return enderecocarnes;
+  }
+
+  public void setenderecocarnes (String enderecocarnes){
     this.enderecocarnes = enderecocarnes;
   }
 
